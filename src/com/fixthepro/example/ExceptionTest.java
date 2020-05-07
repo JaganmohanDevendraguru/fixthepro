@@ -32,6 +32,7 @@ public class ExceptionTest {
 				throw new Exception("i is zero");
 		} catch (Exception e) {
 			System.out.println("exMethod ex");
+			e.printStackTrace();
 		}
 	}
 
