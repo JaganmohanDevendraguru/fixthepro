@@ -25,6 +25,8 @@ public class ExceptionTest {
 		}
 	}
 	
+	public void print() {}
+	
 	static void exMethod() throws IOException{
 		try {
 			int i =0;
